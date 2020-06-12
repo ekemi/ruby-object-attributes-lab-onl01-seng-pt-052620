@@ -1,20 +1,20 @@
-class Dog
+class Person
+  def name=(name)
+    @name = name
 
-def name=(name)
-  @name = name
+  end
 
-end
+  def name
 
-def name
+    @name
+  end
 
-  @name
-end
+  def job=(job)
 
-def breed=(breed)
-@breed = breed
-end
-def breed
+  end
 
-  @breed
-end
+  def job
+    @job
+  end
+
 end
